@@ -2178,7 +2178,7 @@ $(document).ready(function(){
   var methods = {
     init : function(options) {
       var defaults = {
-        menuWidth: 300,
+        menuWidth: 200,
         edge: 'left',
         closeOnClick: false,
         draggable: true
