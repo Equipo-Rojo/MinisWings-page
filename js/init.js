@@ -1,7 +1,4 @@
-
-        
-          $('.carousel.carousel-slider').carousel({full_width: true});
-
+//Funcion para el menu responsivo
 (function($){
   $(function(){
 
@@ -10,4 +7,8 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
-
+//carousel
+  $('.carousel.carousel-slider').carousel({full_width: true});
+ $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });

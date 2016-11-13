@@ -1,3 +1,30 @@
  html {
-    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    background-color: black;
   }
+  .img-logo > img{
+  	height:  10%;
+
+  }
+  .flaticon-menu{
+  font-size: 50px;
+  }
+  .indicator-item{
+  	background-color: red;
+  }
+  /*
+  .carousel > .carousel-item > img{
+  	height: 200px;
+  	width: 90%;
+}
+
+
+.nav-extended> .nav-wrapper> .Logo{
+	height: 200px;
+}
+.navegacion{
+left: 50%;
+position: relative;
+}
+.navegacion> ul> li> a{
+	font-size: 2em;
+}*/
