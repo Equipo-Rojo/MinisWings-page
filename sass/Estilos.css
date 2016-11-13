@@ -11,6 +11,12 @@
   .indicator-item{
   	background-color: red;
   }
+
+
+  .slider> ul> li> img{
+
+ opacity: 0.5;
+  }
   /*
   .carousel > .carousel-item > img{
   	height: 200px;
