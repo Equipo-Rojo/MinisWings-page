@@ -16,7 +16,7 @@
 
   }
   .side-nav >li> a{
-  	font-size: 25px;
+  	font-size: 30px;
   }
 /*Activo en modo Normal*/
 .nav-wrapper> ul >.active> a{
@@ -33,11 +33,9 @@
 	font-size: 50px;
 	margin-left: -5px;
 }
-
-
-.nav-wrapper> ul> li> a{
-	font-size: 50px;
-}
-.nav-wrapper> .side-nav> li> a{
+.nav-wrapper ul li a{
 	font-size: 30px;
+}
+.nav-wrapper .side-nav li a{
+	font-size: 25px;
 }
