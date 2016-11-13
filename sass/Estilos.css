@@ -2,11 +2,9 @@
     background-color: black;
   }
   .img-logo > img{
-  	height:  10%;
+  	height: 10px;
 
   }
-  .flaticon-menu{
-  font-size: 50px;
   }
   .indicator-item{
   	background-color: red;
@@ -14,23 +12,32 @@
 
 
   .slider> ul> li> img{
-
  opacity: 0.5;
+
   }
-  /*
-  .carousel > .carousel-item > img{
-  	height: 200px;
-  	width: 90%;
+  .side-nav >li> a{
+  	font-size: 25px;
+  }
+/*Activo en modo Normal*/
+.nav-wrapper> ul >.active> a{
+	background-color: #ffc107;
+	color: black;
+}
+.side-nav >.active> a{
+	background-color: #ffc107;
+	color: black;
+}
+/*Iconos+*/
+
+.flaticon-menu{
+	font-size: 50px;
+	margin-left: -5px;
 }
 
 
-.nav-extended> .nav-wrapper> .Logo{
-	height: 200px;
+.nav-wrapper> ul> li> a{
+	font-size: 50px;
 }
-.navegacion{
-left: 50%;
-position: relative;
+.nav-wrapper> .side-nav> li> a{
+	font-size: 30px;
 }
-.navegacion> ul> li> a{
-	font-size: 2em;
-}*/
