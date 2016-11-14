@@ -1,5 +1,5 @@
  html {
-    background-color: black;
+    background-color: #202A31;
   }
   .img-logo > img{
   	height: 10px;
@@ -42,4 +42,8 @@
 .flaticon-facebook,.flaticon-twitter,.flaticon-google{
 	font-size: 50px;
 
+}
+.nav-wrapper, .nav-wrapper> .side-nav{
+	background-color: #202A31;
+	color: #F2D741;
 }
