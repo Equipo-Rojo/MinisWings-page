@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Eso</title>
+</head>
+<body>
+
+
+<div id='oculto' style='display:none;'>
+Contenido a ocultar, puede ser bloques de texto, imágenes, videos o cualquier otro elemento.
+</div>
+
+
+<button onclick="Muestra('oculto')">Try it</button>
+
+<script>
+function Muestra(eso) {
+    alert(eso);
+    document.getElementById(eso).style.display = 'block';
+}
+</script>
+
+</body>
+</html>
