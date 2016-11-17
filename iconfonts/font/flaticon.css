@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 15/11/2016 19:38
+  	Creation date: 17/11/2016 07:23
   	*/
 
 @font-face {
@@ -24,17 +24,26 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-      
-font-style: normal;
 
+font-style: normal;
 }
 
-.flaticon-carta:before { content: "\f100"; }
-.flaticon-cerveza:before { content: "\f101"; }
-.flaticon-facebook:before { content: "\f102"; }
-.flaticon-google:before { content: "\f103"; }
-.flaticon-happy:before { content: "\f104"; }
-.flaticon-home:before { content: "\f105"; }
-.flaticon-menu:before { content: "\f106"; }
-.flaticon-twitter:before { content: "\f107"; }
-.flaticon-visitanos:before { content: "\f108"; }
+.flaticon-arriba:before { content: "\f100"; }
+.flaticon-burger:before { content: "\f101"; }
+.flaticon-carta:before { content: "\f102"; }
+.flaticon-cerveza:before { content: "\f103"; }
+.flaticon-chicken:before { content: "\f104"; }
+.flaticon-close:before { content: "\f105"; }
+.flaticon-facebook:before { content: "\f106"; }
+.flaticon-fine:before { content: "\f107"; }
+.flaticon-google:before { content: "\f108"; }
+.flaticon-happy:before { content: "\f109"; }
+.flaticon-home:before { content: "\f10a"; }
+.flaticon-menu:before { content: "\f10b"; }
+.flaticon-nachos:before { content: "\f10c"; }
+.flaticon-nop:before { content: "\f10d"; }
+.flaticon-salad:before { content: "\f10e"; }
+.flaticon-sauce:before { content: "\f10f"; }
+.flaticon-twitter:before { content: "\f110"; }
+.flaticon-visitanos:before { content: "\f111"; }
+.flaticon-wow:before { content: "\f112"; }

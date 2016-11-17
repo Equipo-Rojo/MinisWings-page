@@ -1,0 +1,57 @@
+ html {
+    background-color: #202A31;
+  }
+  .img-logo > img{
+  	height: 10px;
+
+  }
+  }
+  .indicator-item{
+  	background-color: red;
+  }
+
+
+  .slider> ul> li> img{
+ opacity: 0.5;
+
+  }
+  .side-nav >li> a{
+  	font-size: 30px;
+  }
+/*Activo en modo Normal*/
+.nav-wrapper> ul >.active> a{
+	background-color: #ffc107;
+	color: black;
+}
+.side-nav >.active> a{
+	background-color: #ffc107;
+	color: black;
+}
+/*Iconos+*/
+
+.flaticon-menu{
+	font-size: 50px;
+	margin-left: -5px;
+}
+.nav-wrapper ul li a{
+	font-size: 30px;
+}
+.nav-wrapper .side-nav li a{
+	font-size: 25px;
+}
+.flaticon-facebook,.flaticon-twitter,.flaticon-google{
+	font-size: 50px;
+
+}
+.nav-wrapper, .nav-wrapper> .side-nav{
+	background-color: #202A31;
+	color: #F2D741;
+}
+.comida{
+display: none;
+}
+.flaticon-fine,.flaticon-nop,.flaticon-wow{
+font-size: 30px;
+color: black;
+font-weight: bolder;
+}

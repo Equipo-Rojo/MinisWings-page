@@ -6,10 +6,10 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet">
         <link rel="shortcut icon" href="images/logo_icon.ico" type="image/ico">
-        <link type="text/css" rel="stylesheet" href="sass/main.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
         <link rel="stylesheet" type="text/css" href="iconfonts/font/flaticon.css">
         <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="sass/Estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/Estilos.css">
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta charset="utf-8">
@@ -55,50 +55,159 @@
             <div class="col l4 m5 s12">
                 <ul class="collapsible" data-collapsible="accordion">
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">whatshot</i>Alitas</div>
-                        <div class="collapsible-body white"> 
-                         <a href="#!" class="btn" onclick="Muestra(1)">Click Me</a>
-                           
+                        <div class="collapsible-header yellow darken-4 yellow-text text-lighten-5 "><i class="flaticon-nachos"></i>APETIZERS</div>
+                        <div class="collapsible-body white">
+                            <div class="collection black-text">
+                                <a href="#A1" class="collection-item black-text" onclick="Cambio(1)" >Sampler</a>
+                                <a href="#A2" class="collection-item black-text" onclick="Cambio(2)" >Taquiyisus</a>
+                                <a href="#A3" class="collection-item black-text" onclick="Cambio(3)" >Dedos de Queso</a>
+                                <a href="#A4" class="collection-item black-text" onclick="Cambio(4)" >Aros de cebolla</a>
+                                <a href="#A5" class="collection-item black-text" onclick="Cambio(5)" >Nuggets</a>
+                                <a href="#A6" class="collection-item black-text" onclick="Cambio(6)" >Jalapeños</a>
+                                <a href="#A7" class="collection-item black-text" onclick="Cambio(7)" >Papas a la Francesa</a>
+                                <a href="#A8" class="collection-item black-text" onclick="Cambio(8)" >Papas gajo</a>
+                                <a href="#A9" class="collection-item black-text" onclick="Cambio(9)" >Papas De Luxe</a>
+                                <a href="#A10" class="collection-item black-text" onclick="Cambio(10)" >Corn dog</a>
+                                <a href="#A11" class="collection-item black-text" onclick="Cambio(11)" >Nachos</a>
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">whatshot</i>Boneless</div>
+                        <div class="collapsible-header"><i class="flaticon-chicken"></i>CHICKEN</div>
+                        <div class="collapsible-body white"> 
+                            <a class="waves-effect waves-light btn-large">Button</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="flaticon-salad"></i>OTRAS ESPECIALIDADES</div>
+                        <div class="collapsible-body white"> 
+                            <a class="waves-effect waves-light btn-large">Button</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="flaticon-burger"></i>BURGERS</div>
+                        <div class="collapsible-body white"> 
+                            <a class="waves-effect waves-light btn-large">Button</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="flaticon-sauce"></i>ADEREZOS</div>
                         <div class="collapsible-body white">
-                         <a href="#!" class="btn" onclick="Muestra(2)">Click Me</a>
+                            <a class="waves-effect waves-light btn-large">Button</a>
                         </div>
                     </li>
                 </ul>
             </div>
             <!-- Este es Nuestro menu del lado derecho-->
-            <div class="col l8  m7 s12 teal">
-           <div id="elemento" class="comida">
-               <h1>Hola</h1>
-           </div>
-           <div id="elemento" class="comida">
-               <h1>Bonjour</h1>
-           </div>
- 
+            <div class="col l6  m5 s12">
+                <div id="A1" class="comida">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="images/Sampler.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Sampler<i class="flaticon-arriba right"></i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Sampler<i class="flaticon-close right"></i></span>
+                            <p>6 Aros, 3 dedos de queso,3 jalapeños rellenos, papas gajo, 6 alitas, vegetales y 2 aderezos<br>
+                                <b>$130.00</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="A2" class="comida">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="images/Taquis.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Taquiyisus<i class="flaticon-arriba right"></i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Taquiyisus<i class="flaticon-close right"></i></span>
+                            <p>Chicharrón de queso relleno de fajitas de pollo<br>
+                                <b>$20.00</b><br>arrachera <b>$30.00</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                   <div id="A3" class="comida">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="images/dedos.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Dedos de Queso<b class="right"> $50.0</b></span>
+                        </div>
+                    </div>
+                </div>
+              <div id="A4" class="comida">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="images/aros.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Aros de Cebolla<b class="right"> $40.0</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="A5" class="comida">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="images/nuggets.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Nuggets<b class="right"> $50.0</b></span>
+                        </div>
+                    </div>
+                </div>
+                 <div id="A6" class="comida">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="images/jalapeño.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Jalapeños<i class="flaticon-arriba right"></i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Jalapeños<i class="flaticon-close right"></i></span>
+                            <p>Jalapeños empanizados rellenos de queso crema (6)<br><b>$50.00</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                     <div id="A7" class="comida">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="images/francesa.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Papas a la Francesa<b class="right"> $40.0</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col l1 center m2 center s12 center">
+                <h5 class=" white-text">Salsas</h5>
+                <a class="btn tooltipped green darken-4" data-position="top" data-delay="50" data-tooltip="BBQ"><span class="flaticon-fine"></span></a>
+                <a class="btn tooltipped green darken-3" data-position="top" data-delay="50" data-tooltip="Honey BBQ"><span class="flaticon-fine"></span></a>
+                <a class="btn tooltipped green darken-2" data-position="top" data-delay="50" data-tooltip="Teriyaki"><span class="flaticon-fine"></span></a>
+                <a class="btn tooltipped green darken-1" data-position="top" data-delay="50" data-tooltip="Honey Mustard"><span class="flaticon-fine"></span></a>
+                <a class="btn tooltipped lime" data-position="top" data-delay="50" data-tooltip="Lemon Pepper"><span class="flaticon-fine"></span></a>
+                <a class="btn tooltipped lime accent-1" data-position="top" data-delay="50" data-tooltip="Garlic Parmesan"><span class="flaticon-wow"></span></a>
+                <a class="btn tooltipped" data-position="top" data-delay="50" data-tooltip="Chipotle BBQ"><span class="flaticon-wow"></span></a>
+                <a class="btn tooltipped yellow" data-position="top" data-delay="50" data-tooltip="Habanero BBQ"><span class="flaticon-wow"></span></a>
+                <a class="btn tooltipped amber darken-4" data-position="top" data-delay="50" data-tooltip="Tamarind Habanero"><span class="flaticon-wow"></span></a>
+                <a class="btn tooltipped yellow darken-4" data-position="top" data-delay="50" data-tooltip="Mango Habanero"><span class="flaticon-wow"></span></a>
+                <a class="btn tooltipped deep-orange darken-1" data-position="top" data-delay="50" data-tooltip="Sweet Chili"> <span class="flaticon-nop"></span></a>
+                <a class="btn tooltipped red darken-1" data-position="top" data-delay="50" data-tooltip="Chipotle"> <span class="flaticon-nop"></span></a>
+                <a class="btn tooltipped red darken-2" data-position="top" data-delay="50" data-tooltip="Mini's"> <span class="flaticon-nop"></span></a>
+                <a class="btn tooltipped red darken-3" data-position="top" data-delay="50" data-tooltip="Buffalo"> <span class="flaticon-nop"></span></a>
+                <a class="btn tooltipped red darken-4" data-position="top" data-delay="50" data-tooltip="Habanero Extra Hot"> <span class="flaticon-nop"></span></a>
             </div>
         </div>
-        <h2 class="white-text center">Presiona la cara para conocer nuestras SALSAS</h2>
         <div class="row">
-            <div class="col l9 offset-l2 s10 offset-s1">
-                <a class="btn tooltipped green darken-4" data-position="top" data-delay="50" data-tooltip="BBQ"></a>
-                <a class="btn tooltipped green darken-3" data-position="top" data-delay="50" data-tooltip="Honey BBQ"></a>
-                <a class="btn tooltipped green darken-2" data-position="top" data-delay="50" data-tooltip="Teriyaki"></a>
-                <a class="btn tooltipped green darken-1" data-position="top" data-delay="50" data-tooltip="Honey Mustard"></a>
-                <a class="btn tooltipped lime" data-position="top" data-delay="50" data-tooltip="Lemon Pepper"></a>
-                <a class="btn tooltipped lime accent-1" data-position="top" data-delay="50" data-tooltip="Garlic Parmesan"></a>
-                <a class="btn tooltipped" data-position="top" data-delay="50" data-tooltip="Chipotle BBQ"></a>
-                <a class="btn tooltipped yellow" data-position="top" data-delay="50" data-tooltip="Habanero BBQ"></a>
-                <a class="btn tooltipped amber darken-4" data-position="top" data-delay="50" data-tooltip="Tamarind Habanero"></a>
-                <a class="btn tooltipped yellow darken-4" data-position="top" data-delay="50" data-tooltip="Mango Habanero"></a>
-                <a class="btn tooltipped deep-orange darken-1" data-position="top" data-delay="50" data-tooltip="Sweet Chili"></a>
-                <a class="btn tooltipped red darken-1" data-position="top" data-delay="50" data-tooltip="Chipotle"></a>
-                <a class="btn tooltipped red darken-2" data-position="top" data-delay="50" data-tooltip="Mini's"></a>
-                <a class="btn tooltipped red darken-3" data-position="top" data-delay="50" data-tooltip="Buffalo"></a>
-                <a class="btn tooltipped red darken-4" data-position="top" data-delay="50" data-tooltip="Habanero Extra Hot"></a>
-            </div>
         </div>
         <footer class="foot page-footer red darken-2">
             <div class="container">
@@ -131,5 +240,6 @@
         <script src="js/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
+        <script src="js/Funciones.js"></script>
     </body>
 </html>
