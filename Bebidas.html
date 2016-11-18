@@ -36,14 +36,14 @@
                         <li><a class="amber-text" href="index.html"><span class="flaticon-home"> </span><b>Inicio</b></a></li>
                         <li><a class="amber-text" href="menu.html"><span class="flaticon-carta"> </span><b>Menu</b></a></li>
                         <li class="active"><a   href="Bebidas.html"><span class="flaticon-cerveza"> </span><b>Bebidas</b></a></li>
-                        <li><a class="amber-text" href="index.html"><span class="flaticon-happy"> </span><b>Promos</b></a></li>
+                        <li><a class="amber-text" href="promos.html"><span class="flaticon-happy"> </span><b>Promos</b></a></li>
                         <li><a class="amber-text" href="visitanos.html"><span class="flaticon-visitanos"> </span><b>Visitanos</b></a></li>
                     </ul>
                     <ul class="side-nav" id="mobile-demo">
                         <li><a class="amber-text" href="index.html"><span class="flaticon-home"></span><b>Inicio</b></a></li>
                         <li><a class="amber-text" href="menu.html"><span class="flaticon-carta"> </span><b>Menu</b></a></li>
                         <li class="active"><a   href="Bebidas.html"><span class="flaticon-cerveza"> </span><b>Bebidas</b></a></li>
-                        <li><a class="amber-text" href="index.html"><span class="flaticon-happy"> </span><b>Promos</b></a></li>
+                        <li><a class="amber-text" href="promos.html"><span class="flaticon-happy"> </span><b>Promos</b></a></li>
                         <li><a class="amber-text" href="visitanos.html"><span class="flaticon-visitanos"> </span><b>Visitanos</b></a></li>
                     </ul>
                 </div>
@@ -102,10 +102,10 @@
   </div>
 </li>
 <li>
-<div class="collapsible-header grey darken-3 white-text "><i class="flaticon-wine"></i>BOTELLAS</div>
+<div class="collapsible-header grey darken-3 white-text " onclick="Cambio(20)"><i class="flaticon-wine"></i>BOTELLAS</div>
 </li>
 <li>
-<div class="collapsible-header grey darken-3 white-text "><i class="flaticon-soda"></i>SIN ALCOHOL</div>
+<div class="collapsible-header grey darken-3 white-text " onclick="Cambio(21)"><i class="flaticon-soda"></i>SIN ALCOHOL</div>
 </li>
 
   </ul>
@@ -344,7 +344,60 @@
                             </div>
                         </div>
                       </div>
+                      <!--Botellas-->
+                        <div id="A20" class="comida">
+                            <div class="card-panel amber lighten-2 hoverable center"><span class="grey-text text-darken-4">Botellas Preparadas en Triton incluye Servicios</span></span></div>
+                          <div class="row">
+                            <div class=" col l4 m4 s12">
+                              <div class="card-panel amber lighten-4"><span class="black-text ">Bacardí </span><span class="right">$300.00</span></div>
+                              <div class="card-panel amber lighten-4"><span class="black-text ">Captain Morgan</span> <span class="right">$320.00</span></div>
+                              <div class="card-panel amber lighten-4"><span class="black-text ">José Cuervo<br> Tradicional </span><span class="right">$320.00</span></div>
+                              <div class="card-panel amber lighten-4"><span class="black-text ">Tequila Azul </span><span class="right">$350.00</span></div>
+                              <div class="card-panel amber lighten-4"><span class="black-text ">Don Julio<br> Reposado </span><span class="right">$800.00</span></div>
 
+
+
+                            </div>
+                                <div class=" col l4 m4 s12">
+                                  <div class="card-panel amber lighten-4"><span class="black-text ">Black & White </span><span class="right">$320.00</span></div>
+                                  <div class="card-panel amber lighten-4"><span class="black-text ">Jim Beam</span> <span class="right">$450.00</span></div>
+                                  <div class="card-panel amber lighten-4"><span class="black-text ">Red Label </span><span class="right">$550.00</span></div>
+                                  <div class="card-panel amber lighten-4"><span class="black-text ">Black Label</span> <span class="right">$1,100.00</span></div>
+                                  <div class="card-panel amber lighten-4"><span class="black-text ">Buchanans <br>12</span> <span class="right">$1,260.00</span></div>
+
+
+
+
+                                </div>
+                                <div class="col l4 m4 s12">
+                                  <div class="card-panel amber lighten-4"><span class="black-text ">Old Parr </span><span class="right">$920.00</span></div>
+                                  <div class="card-panel amber lighten-4"><span class="black-text ">Stolichnaya </span><span class="right">$500.00</span></div>
+                                  <div class="card-panel amber lighten-4"><span class="black-text ">Grey Goose </span><span class="right">$1,010.00</span></div>
+                                  <div class="card-panel amber lighten-4"><span class="black-text ">Torres 5</span><span class="right">$350.00</span></div>
+                                  <div class="card-panel amber lighten-4"><span class="black-text ">Martell </span><span class="right">$1,150.00</span></div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <!--Sin Alcohol-->
+                        <div id="A21" class="comida">
+                          <div class="row">
+                            <div class=" col l6">
+                              <div class="card-panel amber lighten-4"><span class="black-text ">Ranch <span class="right">$8.00</span></span></div>
+                              <div class="card-panel amber lighten-4"><span class="black-text ">Ranch <span class="right">$8.00</span></span></div>
+                              <div class="card-panel amber lighten-4"><span class="black-text ">Ranch <span class="right">$8.00</span></span></div>
+                            </div>
+                            <div class=" col l6">
+                              <div class="card-panel amber lighten-4"><span class="black-text ">Ranch <span class="right">$8.00</span></span></div>
+                              <div class="card-panel amber lighten-4"><span class="black-text ">Ranch <span class="right">$8.00</span></span></div>
+                              <div class="card-panel amber lighten-4"><span class="black-text ">Ranch <span class="right">$8.00</span></span></div>
+                            </div>
+
+                          </div>
+                        </div>
 
 
 
@@ -353,7 +406,8 @@
       <!-- Terminaron las tarjetas-->
         <!-- Pequeña promo-->
       <div class=" col l2 center m2 center s12 center">
-          <div class="card-panel amber lighten-2 hoverable"><span class="grey-text text-darken-4">Pregunta por nuestras promociones y productos de temporada<br><span class="flaticon-happy"></span></span></span></div>
+        <div class="card-panel amber lighten-2 hoverable"><span class="grey-text text-darken-4">Pregunta por nuestras promociones y productos de temporada<br><span class="flaticon-happy"></span></span></span></div>
+
       </div>
     </div>
 
